@@ -1,0 +1,2034 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+/*Theme Name: 酒列磯前神社*/
+/* cssファイルの1行目に記述 */
+/* リセットcssがある場合はそのファイルを読み込む記述 */
+html *, :before, :after {
+  box-sizing: border-box; /* ボーダーもボックス内に含める */
+}
+
+body {
+  font-size: 16px;
+  font-family: "Noto Serif JP", serif;
+  background-color: #f7f3ed;
+}
+
+.page {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+header {
+  position: relative;
+  background-color: white;
+}
+@media (min-width: 1024px) {
+  header {
+    height: 70px;
+    position: relative;
+  }
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between; /* space-betweenを使用して、ロゴとメニューアイコンが両端に来るようにします */
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .header-inner {
+    height: 70px;
+    position: relative;
+    display: flex;
+  }
+}
+
+.header-logo {
+  flex-grow: 1;
+  text-align: center;
+  width: 50px;
+  height: auto;
+  margin: 3% auto;
+}
+.header-logo img {
+  width: 70%;
+  height: 60px;
+}
+
+@media (min-width: 1024px) {
+  .header-logo {
+    margin: 0;
+    padding: 0;
+    max-width: 40%;
+  }
+  .header-logo img {
+    width: 33%;
+    height: 50px;
+  }
+  .accessbar img {
+    width: 30%;
+    margin: 0;
+    padding: 0;
+  }
+}
+.hamburger-menu {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+.hamburger-menu div {
+  width: 1.5rem;
+  height: 0.25rem;
+  background: #ae3839;
+}
+@media (min-width: 1024px) {
+  .hamburger-menu div {
+    display: none;
+  }
+}
+
+.main-nav {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .main-nav {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    max-width: 90%;
+  }
+  .main-nav ul {
+    display: flex;
+    width: 100%;
+    margin: 0;
+  }
+  .main-nav ul li {
+    margin: 0 1%;
+    padding: 0;
+  }
+}
+
+.res-main-nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 0;
+  overflow: hidden;
+  transition: height 1s 0.5s ease-in-out;
+  line-height: 300%;
+}
+.res-main-nav ul li a {
+  color: white;
+}
+@media (min-width: 1024px) {
+  .res-main-nav {
+    display: none;
+  }
+}
+
+.res-main-nav.open {
+  height: auto;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+  display: none; /* 初めは非表示 */
+}
+
+.access_banner {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .access_banner {
+    display: block;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+  }
+}
+
+.index-main-visual {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .index-main-visual {
+    display: block;
+    background-image: url("images/02_haiden_b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.res-main-visual-img {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+@media (min-width: 1024px) {
+  .res-main-visual-img {
+    display: none;
+  }
+}
+
+.res-main-visual-backimg {
+  width: 100%;
+  height: 300px;
+  background-image: url("images/02_haiden_b.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (min-width: 1024px) {
+  .res-main-visual-backimg {
+    display: none;
+  }
+}
+
+.main-visual-img {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .main-visual-img {
+    display: block;
+  }
+  .main-visual-img img {
+    width: 16%;
+    height: auto;
+  }
+}
+
+.main-wrapper {
+  width: 100%;
+  position: relative;
+  background-image: url("images/bg_clowd1.png"), url("images/bg_clowd2.png"), url("images/bg_flower1.png"), url("images/bg_flower2.png");
+  background-size: 20%, 15%, 28%, 28%;
+  background-position: top 20% left 8%, top 46% right 20%, bottom left, top right -10%;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 1%;
+}
+
+.main-about-txt {
+  justify-content: center;
+  writing-mode: vertical-rl;
+  margin: 0 auto 100px auto;
+}
+.main-about-txt h2 {
+  font-size: 32px;
+  margin: 0;
+  margin-left: 2%;
+  padding: 0;
+  position: relative;
+  justify-content: center;
+  letter-spacing: 0;
+}
+.main-about-txt p {
+  line-height: 150%;
+  margin: 0 auto;
+}
+
+.goyuisyo {
+  text-align: center;
+  margin: 30px auto 80px auto;
+}
+.goyuisyo a {
+  border: solid 1px black;
+  background-color: black;
+  padding: 12px 75px;
+  color: white;
+}
+
+.sanpai {
+  position: relative;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  height: 462px;
+}
+.sanpai:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/top_img03.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 600%;
+  z-index: -1;
+}
+.sanpai:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.4;
+  z-index: 1;
+}
+.sanpai p {
+  font-size: 3.5vh;
+  writing-mode: vertical-rl;
+  color: white;
+  position: relative;
+  align-items: center;
+  z-index: 2;
+  height: 100%;
+  flex-direction: column;
+  font-weight: bold;
+  margin: auto 0 auto 10px;
+  line-height: 120%;
+  display: flex;
+  letter-spacing: 3px;
+}
+.sanpai a {
+  color: white;
+  position: relative;
+  z-index: 2;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: solid 1px black;
+  background-color: black;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 20px 15px;
+  margin: auto 0 auto 10px;
+  display: flex;
+  letter-spacing: 1px;
+}
+
+.contents-wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url("images/bg_flower1.png"), url("images/bg_flower2.png");
+  background-size: 40%, 30%;
+  background-position: bottom 35.5% left -13%, top right -10%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.logo-tsubaki-1 {
+  padding-top: 20%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.logo-tsubaki-2 {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 7%;
+  margin-top: 13%;
+  margin-bottom: 0;
+}
+
+.logo-tsubaki-3 {
+  text-align: center;
+  padding-top: 15px;
+  margin: 0 auto;
+  margin-bottom: 8%;
+}
+
+.news h2 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.8em;
+}
+
+.news-wrapper {
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  margin: 0 auto;
+}
+
+.news-topics {
+  justify-content: center;
+  display: flex;
+  width: 90%;
+  height: 100%;
+  flex-wrap: wrap-reverse;
+  box-sizing: border-box;
+  background-color: white;
+  margin: 2%;
+  order: 2;
+}
+.news-topics a {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  position: relative;
+  pointer-events: auto;
+  height: 100%;
+}
+.news-topics p {
+  writing-mode: horizontal-tb;
+  width: 90%;
+  border-top: solid 10px #bf0000;
+  max-height: 9rem;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding-top: 1em;
+  line-height: 1.4em;
+  margin: 15px auto 0 auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.news-img {
+  width: 90%;
+  height: 200px;
+  overflow: hidden;
+  display: block;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+.all-news {
+  text-align: center;
+  margin-top: 50px;
+}
+.all-news a {
+  color: white;
+  font-size: 16px;
+  position: relative;
+  z-index: 2;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: solid 1px black;
+  background-color: black;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+  padding: 12px 50px;
+}
+
+.info-item .logo-tsubaki-2 {
+  margin-top: 90px;
+  margin-bottom: 45px;
+}
+
+.item-wrapper {
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.item {
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
+  height: 180px;
+  width: 90%;
+  margin-bottom: 5%;
+}
+.item h3 {
+  position: absolute;
+  font-size: 24px;
+  z-index: 1000;
+  margin: 0 0 0 15px;
+  padding: 0;
+  bottom: 35px;
+}
+.item p {
+  position: absolute;
+  bottom: 10px;
+  z-index: 1000;
+  margin: 0 0 0 15px;
+  padding: 0;
+}
+.item a {
+  color: white;
+  z-index: 1000;
+  bottom: 0;
+}
+
+.item1 a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/top_img_753.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  z-index: -1;
+}
+.item1 a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.item2 a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/kigyosanpai_img_001.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  z-index: -1;
+}
+.item2 a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.item3 a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/top_img_kamesan.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  z-index: -1;
+}
+.item3 a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.item4 a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/top_img_byoukiheiyu.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  z-index: -1;
+}
+.item4 a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.res-takarakuji {
+  width: 95%;
+  height: 6.5rem;
+  margin: 0 auto;
+  justify-content: center;
+  position: relative;
+}
+.res-takarakuji a {
+  justify-content: center;
+}
+
+.ooaraiisosakijinja-wrapper {
+  width: 100%;
+  position: relative;
+  background-image: url("images/bg_flower2.png");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: bottom 4% right;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.ooaraiisosakijinja {
+  text-align: center;
+  display: flex;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 150px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 95%;
+  align-content: flex-start;
+}
+.ooaraiisosakijinja h3 {
+  font-size: 24px;
+  margin: 15px auto 0 auto;
+}
+.ooaraiisosakijinja h2 {
+  font-size: 36px;
+  margin: 0 auto;
+  padding: 0;
+}
+.ooaraiisosakijinja a {
+  border: solid 1px black;
+  padding: 10px 35px;
+  color: white;
+  background-color: black;
+}
+.ooaraiisosakijinja p {
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+.ooaraiisosakijinja-img1 {
+  background-image: url("images/top_img06.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  order: 2;
+  height: 10rem;
+}
+
+.ooaraiisosakijinja-txt {
+  order: -1;
+  width: 100%;
+  position: relative;
+  background-color: #b8272e;
+  color: white;
+  padding: 1%;
+}
+
+.ooaraiisosakijinja-img2 {
+  background-image: url("images/top_img07.jpg");
+  background-position: center;
+  background-size: cover;
+  order: 3;
+  width: 50%;
+}
+
+.shrine-guidance {
+  position: relative;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  height: 450px;
+}
+.shrine-guidance:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/top_img04.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 600%;
+}
+.shrine-guidance:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.3;
+  z-index: 1;
+}
+.shrine-guidance p {
+  writing-mode: vertical-rl;
+  color: white;
+  font-size: 1.5rem;
+  position: relative;
+  align-items: center;
+  z-index: 2;
+  height: 100%;
+  flex-direction: column;
+  font-weight: bold;
+  margin: 1%;
+  line-height: 100%;
+  display: flex;
+  letter-spacing: 3px;
+}
+.shrine-guidance a {
+  color: white;
+  font-size: 16px;
+  position: relative;
+  z-index: 2;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: solid 1px black;
+  background-color: black;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10% 4%;
+  display: flex;
+}
+
+.footer-nav {
+  width: 100%;
+  line-height: 350%;
+  padding: 3% 0;
+  margin: 10% auto;
+  background-position: top 15px left -33px;
+  background-size: 53%;
+  position: relative;
+  justify-content: center;
+  background-image: url("images/bg_flower1.png");
+  background-repeat: no-repeat;
+  writing-mode: vertical-rl;
+  align-items: center;
+  display: flex;
+}
+.footer-nav ul {
+  width: 100%;
+}
+
+.footer-visual {
+  height: 330px;
+  width: 100%;
+  background-image: url("images/top_img08.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto 15% auto;
+  padding: 0;
+}
+
+footer {
+  background-color: #f7f3ed;
+  padding: 0;
+  width: 100%;
+}
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Noto Sans";
+  font-size: 0.9rem;
+  line-height: 200%;
+  padding: 0;
+}
+footer li:after {
+  margin: 0;
+  content: "|";
+}
+footer p {
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 170%;
+  width: 100%;
+  margin: 5% auto;
+}
+
+.copy-right {
+  font-size: 0.7em;
+  text-align: left;
+  line-height: 130%;
+  padding: 3%;
+  margin: 0 auto;
+  padding-top: 0;
+}
+
+.jinjatyo:after {
+  content: "";
+}
+
+.about-main-visual {
+  height: 279px;
+  display: block;
+  background-image: url("images/01_honden.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200%;
+  display: flex;
+  align-items: flex-end;
+}
+.about-main-visual p {
+  color: white;
+  writing-mode: vertical-rl;
+  margin: 0 auto;
+  background-image: url("images/bg_headerttl.png");
+  height: 35%;
+  padding: 6% 3.5%;
+}
+
+.about-wrapper {
+  width: 100%;
+  padding-right: 3%;
+  padding-left: 3%;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.about-wrapper h2 {
+  font-size: 1rem;
+  text-align: center;
+}
+.about-wrapper h3 {
+  font-size: 0.9rem;
+  text-align: center;
+  background-color: #ECE3CF;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.about-wrapper p {
+  padding-right: 2%;
+  padding-left: 2%;
+  margin-bottom: 10%;
+  line-height: 150%;
+}
+
+.saijinn {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 8%;
+  background-color: #ECE3CF;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.logo-tsubaki-1 {
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+.detail-wrapper {
+  width: 100%;
+  padding: 3%;
+  padding-top: 7%;
+  padding-bottom: 25%;
+  margin-top: 15%;
+  margin-bottom: 3%;
+  box-sizing: border-box;
+  justify-content: center;
+  background-image: url("images/gara_bg_medium.png");
+}
+
+.detail h2 {
+  text-align: center;
+  color: #B5272D;
+  margin-bottom: 10%;
+}
+.detail p {
+  font-family: "Noto Sans JP", serif;
+  padding-right: 2%;
+  padding-left: 2%;
+  line-height: 150%;
+}
+
+.logo-tsubaki-2 {
+  padding: 0;
+  margin: 2% 0 0 0;
+}
+
+.goshintoku-container {
+  width: 100%;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+.goshintoku-container h2 {
+  text-align: center;
+  margin: 12% auto 17% auto;
+}
+
+.goshintoku-wrapper {
+  border: solid 1px gray;
+  margin-bottom: 5%;
+}
+
+.block {
+  padding-right: 2%;
+  padding-left: 2%;
+  margin-bottom: 5%;
+}
+
+.goshintoku p {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10%;
+}
+
+.medical p {
+  padding-bottom: 10%;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+.medical h3 {
+  width: 80%;
+  margin: 0 auto 10% auto;
+  color: white;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+  border-radius: 30px;
+}
+
+.medical-img {
+  background-image: url("images/goyuisyo_yakugaku_b.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 130px;
+  margin-top: 0;
+  display: flex;
+}
+
+.sake-img {
+  background-image: url("images/goyuisyo_sake_a.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 130px;
+}
+
+.hotel-img {
+  background-image: url("images/goyuisyo_onsen_01.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 130px;
+  margin-bottom: 5%;
+}
+
+.dougoonsen-img {
+  background-image: url("images/goyuisyo_onsen_a.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 130px;
+}
+
+.logo-tsubaki-3 {
+  margin-top: 5%;
+}
+
+.sanpai-main-visual {
+  background-image: url("images/sanpai_top_img.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.sanpai-main-visual h1 {
+  color: white;
+  writing-mode: vertical-rl;
+  font-size: 1rem;
+  margin: 0 auto;
+  background-image: url("images/bg_headerttl.png");
+  padding: 5% 3%;
+}
+
+.sanpai-link {
+  width: 100%;
+  padding: 0 2%;
+  margin: 10% 0;
+}
+.sanpai-link .sanpai-method .link-1 {
+  border: solid 1px #c21b23;
+  padding: 3% 0;
+  opacity: 1;
+  margin-bottom: 2%;
+  text-align: center;
+}
+.sanpai-link .sanpai-method .link-1 a {
+  color: #c21b23;
+}
+.sanpai-link .sanpai-method .link-2 {
+  border: solid 1px gray;
+  padding: 3% 0;
+  opacity: 0.5;
+  margin-bottom: 2%;
+  text-align: center;
+}
+.sanpai-link .sanpai-method .link-3 {
+  border: solid 1px gray;
+  padding: 3% 0;
+  opacity: 0.5;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.sahou {
+  padding: 0 2%;
+  width: 100%;
+}
+.sahou .logo-tsubaki-1 {
+  padding: 0;
+  margin: 0 auto;
+}
+.sahou h2 {
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: solid 1px #c21b23;
+  padding: 5% 0;
+}
+.sahou p {
+  line-height: 170%;
+  padding: 0 2%;
+}
+
+.temizu-sahou h2 {
+  padding-bottom: 5%;
+}
+.temizu-sahou p {
+  padding-top: 5%;
+}
+
+.sanpai-sahou {
+  margin-bottom: 10%;
+  padding: 0 2%;
+}
+
+.sahou-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.sahou-img {
+  margin: 0 auto;
+}
+
+.purification-guidance .link-1 {
+  border: solid 1px gray;
+  padding: 3% 0;
+  opacity: 0.5;
+  margin-bottom: 2%;
+  text-align: center;
+}
+.purification-guidance .link-2 {
+  border: solid 1px #c21b23;
+  padding: 3% 0;
+  opacity: 1;
+  margin-bottom: 2%;
+  text-align: center;
+}
+.purification-guidance .link-2 a {
+  color: #c21b23;
+}
+.purification-guidance .link-3 {
+  border: solid 1px gray;
+  padding: 3% 0;
+  opacity: 0.5;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.purification-wrapper {
+  padding: 0 2%;
+}
+.purification-wrapper h2 {
+  text-align: center;
+}
+.purification-wrapper .haidenn-img {
+  height: 130px;
+  background-image: url("images/sanpai_gokigan_img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10%;
+}
+.purification-wrapper .gokitou-kinds {
+  padding: 0 2%;
+}
+.purification-wrapper .gokitou-kinds p {
+  text-align: center;
+  line-height: 180%;
+}
+
+.purification-introduction {
+  border-top: solid 1px #c21b23;
+  border-bottom: solid 1px #c21b23;
+}
+
+.sanpai-info {
+  background-image: url("images/gara_bg_medium.png");
+  text-align: center;
+  padding: 50px 2% 70px 2%;
+  margin-bottom: 50px;
+}
+.sanpai-info span {
+  color: #c21b23;
+}
+
+.sanpai-time p {
+  font-size: 22px;
+  line-height: 150%;
+}
+
+.sanpai-supple {
+  text-align: left;
+  border: solid 1px black;
+  padding: 0 2%;
+  line-height: 180%;
+  margin-top: 50px;
+}
+
+.yakudoshi-table {
+  text-align: center;
+  margin: 30px 0 80px 0;
+}
+.yakudoshi-table a {
+  color: white;
+  background-color: #c21b23;
+  padding: 3% 8%;
+  font-weight: bold;
+}
+
+.flow {
+  margin-bottom: 30px;
+}
+
+.purification-corporation {
+  margin-bottom: 30px;
+  padding: 0;
+  width: 100%;
+}
+.purification-corporation .item {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.yakudoshihyou {
+  padding: 10% 2%;
+}
+
+.initiation-link .link-1 {
+  border: solid 1px gray;
+  padding: 3% 0;
+  opacity: 0.5;
+  margin-bottom: 2%;
+  text-align: center;
+}
+.initiation-link .link-2 {
+  border: solid 1px gray;
+  padding: 3% 0;
+  opacity: 0.5;
+  margin-bottom: 2%;
+  text-align: center;
+}
+.initiation-link .link-3 {
+  border: solid 1px #c21b23;
+  padding: 3% 0;
+  opacity: 1;
+  margin-bottom: 2%;
+  text-align: center;
+}
+.initiation-link .link-3 a {
+  color: #c21b23;
+}
+
+.initiation-txt {
+  padding: 0 2%;
+  margin-bottom: 20%;
+  text-align: center;
+}
+.initiation-txt p {
+  padding: 0 5%;
+  line-height: 170%;
+}
+
+.initiation-list-wrapper {
+  padding: 0 5%;
+  margin-bottom: 20%;
+}
+.initiation-list-wrapper .initiation-tsubaki {
+  text-align: center;
+}
+.initiation-list-wrapper h2 {
+  text-align: center;
+  margin: 10% auto;
+}
+.initiation-list-wrapper h2 span {
+  letter-spacing: 5px;
+}
+.initiation-list-wrapper .initiation-list {
+  padding: 5%;
+  margin-bottom: 5%;
+  border: solid 1px gray;
+}
+.initiation-list-wrapper .initiation-list p {
+  line-height: 150%;
+}
+.initiation-list-wrapper .initiation-list .initiation-image {
+  display: flex;
+  justify-content: flex-end;
+}
+.initiation-list-wrapper .initiation-left_image {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.initiation-list-wrapper .initiation-left_image .initiation-tsubaki {
+  margin: 0 auto;
+  position: absolute;
+  left: 42%;
+}
+.initiation-list-wrapper .initiation-right_image {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0;
+  margin: 0;
+}
+.initiation-list-wrapper .initiation-right_image .initiation-tsubaki {
+  margin: 0 auto;
+  position: absolute;
+  right: 44.5%;
+}
+.initiation-list-wrapper .initiation-tsubaki {
+  margin: 0;
+}
+
+.corporation-main-visual {
+  background-image: url("images/kigyosanpai_img_001.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  align-items: flex-end;
+  display: flex;
+}
+.corporation-main-visual h1 {
+  font-size: 1.2rem;
+  color: white;
+  writing-mode: vertical-rl;
+  margin: 0 auto;
+  background-image: url("images/bg_headerttl.png");
+  height: 70%;
+  padding: 6% 3.5%;
+}
+
+.corporation-wrapper {
+  padding: 0 5%;
+}
+.corporation-wrapper h2 {
+  text-align: center;
+}
+.corporation-wrapper .corporation-txt {
+  padding: 0 2%;
+}
+.corporation-wrapper .corporation-txt p {
+  text-align: center;
+  line-height: 200%;
+}
+
+.kiganni-kinds {
+  border: solid 1px #c21b23;
+  padding: 5% 2% 2% 2%;
+  margin-bottom: 5%;
+}
+.kiganni-kinds h2 {
+  color: #c21b23;
+  letter-spacing: 5px;
+}
+.kiganni-kinds .border-div {
+  border-bottom: solid 1px #c21b23;
+  width: 27%;
+  margin: 0 auto;
+}
+.kiganni-kinds p {
+  line-height: 200%;
+  padding: 0 2%;
+}
+.kiganni-kinds .kiganni-img {
+  margin: 15px 0 0 0;
+  text-align: center;
+}
+
+.gaisai p {
+  padding: 0 6%;
+  line-height: 200%;
+  text-align: center;
+}
+.gaisai .kiganni-kinds {
+  padding: 0;
+}
+.gaisai .kiganni-kinds p {
+  text-align: left;
+}
+
+.kiganni-sonota {
+  margin: 50px 0 30px 0;
+  padding: 0 2%;
+}
+.kiganni-sonota h2 {
+  margin-top: 30px;
+  text-align: center;
+}
+.kiganni-sonota p {
+  line-height: 200%;
+  text-align: left;
+}
+
+.moushikomi {
+  background-image: url("images/gara_bg_medium.png");
+  padding: 50px 2% 130px 2%;
+}
+.moushikomi h2 {
+  text-align: center;
+}
+.moushikomi p {
+  text-align: center;
+}
+.moushikomi .sanpai-supple p {
+  text-align: left;
+}
+
+.juyosyo-info {
+  border: solid 1px #c21b23;
+  background-color: #c21b23;
+  color: white;
+  text-align: center;
+  padding: 5% 13%;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.juyosyo-info h2 {
+  margin: 0;
+}
+.juyosyo-info p {
+  margin: 0;
+  line-height: 200%;
+}
+
+.flow-num {
+  text-align: center;
+}
+
+.corporation-backimg {
+  height: 300px;
+  background-image: url("images/kigyou_img.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.lottery-main-visual {
+  background-image: url("images/kamesan_top_img.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  width: 100%;
+}
+
+.kamesan-main-wrapper {
+  width: 100%;
+  padding: 0 2%;
+}
+.kamesan-main-wrapper .kamesan-logo-tsubaki {
+  margin: 0 auto;
+  margin-top: 10%;
+  text-align: center;
+}
+.kamesan-main-wrapper h3 {
+  text-align: center;
+  font-weight: bold;
+}
+.kamesan-main-wrapper p {
+  line-height: 150%;
+}
+.kamesan-main-wrapper .tousenkigan {
+  margin: 15% 0 20% 0;
+}
+
+.sanpai-method-wrapper {
+  padding: 0 2%;
+}
+.sanpai-method-wrapper .sanpai-block {
+  border-bottom: solid 1px gray;
+  text-align: center;
+}
+.sanpai-method-wrapper .sanpai-block2 {
+  border-bottom: none;
+  text-align: center;
+}
+.sanpai-method-wrapper h2 {
+  margin-top: 20%;
+}
+.sanpai-method-wrapper .omairi-back-img {
+  height: 260px;
+  background-image: url("images/kamesan01.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 3%;
+}
+.sanpai-method-wrapper .amulet-back-img {
+  height: 260px;
+  background-image: url("images/kamesan02.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 3%;
+}
+.sanpai-method-wrapper .kamesan-back-img {
+  height: 260px;
+  background-image: url("images/kamesan03.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 25%;
+}
+
+.keidai-main-visual {
+  height: 279px;
+  display: block;
+  background-image: url("images/keidaiannai_top_img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 120%;
+  display: flex;
+  align-items: flex-end;
+}
+.keidai-main-visual h1 {
+  font-size: 1.2rem;
+  color: white;
+  writing-mode: vertical-rl;
+  margin: 0 auto;
+  background-image: url("images/bg_headerttl.png");
+  height: 47%;
+  padding: 6% 3.5%;
+}
+
+.logo-wrapper {
+  width: 100%;
+  padding: 2%;
+  justify-content: center;
+  margin: 5% 0;
+}
+.logo-wrapper h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.keidai-detail {
+  box-sizing: border-box;
+  margin-bottom: 30%;
+}
+.keidai-detail ul {
+  line-height: 300%;
+  padding: 0;
+  padding-left: 2%;
+}
+.keidai-detail span {
+  color: white;
+  padding: 2% 3%;
+  margin-right: 5%;
+}
+.keidai-detail .red-list span {
+  background-color: #c21b23;
+}
+.keidai-detail .gray-list span {
+  background-color: #585657;
+}
+.keidai-detail .gold-list span {
+  background-color: #b08247;
+}
+
+.jyuyo-main-visual {
+  height: 279px;
+  display: block;
+  background-image: url("images/jyuyo_top_img-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 120%;
+  display: flex;
+  align-items: flex-end;
+}
+.jyuyo-main-visual h1 {
+  font-size: 1.2rem;
+  color: white;
+  writing-mode: vertical-rl;
+  margin: 0 auto;
+  background-image: url("images/bg_headerttl.png");
+  height: 65%;
+  padding: 6% 3.5%;
+}
+
+.jyuyo-txt {
+  padding: 2%;
+}
+.jyuyo-txt .logo-tsubaki-1 {
+  margin: 10% auto 5% auto;
+}
+.jyuyo-txt h2 {
+  text-align: center;
+}
+
+.jyuyo-item-wrapper {
+  width: 100%;
+  margin-bottom: 35%;
+}
+.jyuyo-item-wrapper .jyuyo-item {
+  margin: 0 2%;
+  background-color: white;
+}
+.jyuyo-item-wrapper .jyuyo-item-txt {
+  text-align: center;
+  padding: 3% 0;
+  margin-bottom: 30px;
+}
+.jyuyo-item-wrapper h3, .jyuyo-item-wrapper p {
+  padding: 0;
+  margin: 0;
+}
+
+.jyuyo-border {
+  border-top: solid 1px gray;
+  padding-top: 30px;
+  opacity: 0.5;
+}
+
+.tour-media-main-visual {
+  background-image: url("images/gara_blk.png");
+  padding: 0;
+  margin: 0;
+}
+.tour-media-main-visual h1 {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 20% 0;
+  margin: 0;
+}
+
+.tour-media-wrapper {
+  width: 100%;
+  padding: 2%;
+  justify-content: center;
+}
+.tour-media-wrapper .tour-media-txt {
+  justify-content: center;
+}
+.tour-media-wrapper .tour-media-txt .logo-tsubaki-1 {
+  margin-top: 7%;
+}
+.tour-media-wrapper .tour-media-txt p {
+  text-align: center;
+  font-size: 6vw;
+  font-weight: bold;
+  background-color: #ECE3CF;
+  padding: 5% 0;
+}
+.tour-media-wrapper .parking h2 {
+  font-family: "Noto sans", sans-serif;
+  text-align: center;
+}
+.tour-media-wrapper .inquiry {
+  text-align: center;
+}
+.tour-media-wrapper .inquiry h4 {
+  border: solid 1px black;
+  width: 50%;
+  margin: 0 auto;
+  padding: 5% 0;
+}
+.tour-media-wrapper .inquiry p {
+  line-height: 150%;
+}
+
+.access-main-visual {
+  background-image: url("images/gara_darkred.png");
+}
+.access-main-visual:after {
+  content: "";
+  background-color: rgba(204, 101, 101, 0.99);
+  opacity: 0.5;
+}
+.access-main-visual h1 {
+  color: white;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 20% 0;
+  margin: 0;
+}
+
+.access-wrapper {
+  padding: 0 2%;
+}
+.access-wrapper h2 {
+  text-align: center;
+  background-color: #ECE3CF;
+  padding: 4% 0;
+}
+.access-wrapper .logo-tsubaki-1 {
+  margin-top: 7%;
+}
+.access-wrapper p {
+  line-height: 170%;
+}
+
+.sightseeing {
+  margin-bottom: 30%;
+}
+
+.sightseeing-block {
+  padding: 5% 2%;
+}
+.sightseeing-block img {
+  justify-content: center;
+}
+.sightseeing-block h3 {
+  font-weight: bold;
+}
+.sightseeing-block p {
+  line-height: 180%;
+}
+
+.event-main-visual {
+  background-image: url("images/nencyu_gyoji_top_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  height: 279px;
+}
+.event-main-visual h1 {
+  background-image: url("images/bg_headerttl.png");
+  writing-mode: vertical-rl;
+  color: white;
+  font-size: 1.3rem;
+  padding: 7% 3%;
+  margin: 0 auto;
+}
+
+.event-wrapper {
+  padding: 0 2%;
+}
+
+.event-txt .logo-tsubaki-1 {
+  margin-top: 10%;
+}
+.event-txt h2 {
+  text-align: center;
+}
+
+.month-event {
+  margin-bottom: 12%;
+}
+.month-event h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 2%;
+  border-bottom: gray solid 2px;
+}
+.month-event ul {
+  display: flex;
+}
+.month-event ul li {
+  position: relative;
+  margin-right: 7%;
+}
+.month-event ul li:before {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  left: -15px;
+  top: 4px;
+  content: "";
+  background: black;
+  opacity: 0.3;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
